@@ -27,3 +27,13 @@ step1/ADivisionB1008.java
 step1/Multiply2588.java
  step1.Multiply
  step1.Multiply2588
+step2/CompareTwoNumbers1330.java
+ step2.CompareTwoNumbers1330
+step2/TestScore9498.java
+ step2.TestScore9498
+step2/LeapYear2753.java
+ step2.LeapYear2753
+step2/Quadrant14681.java
+ step2.Quadrant14681
+step2/AlarmClock2884.java
+ step2.AlarmClock2884
