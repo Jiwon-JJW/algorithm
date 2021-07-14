@@ -42,9 +42,9 @@ step3/FastAPlusB15552.java
  step3.FastAPlusB15552
 step3/MultiplicationTable2739.java
  step3.MultiplicationTable2739
-step3/AMinusB10950.java
- step3.AMinusB10950
-test.java
- Solution
- Solution2
- test
+step3/APlusB10950.java
+ step3.APlusB10950
+step3/Plus8393.java
+ step3.Plus8393
+step3/N2741.java
+ step3.N2741

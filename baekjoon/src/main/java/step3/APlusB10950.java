@@ -3,7 +3,7 @@ package step3;
 import java.io.*;
 import java.util.StringTokenizer;
 
-public class AMinusB10950 {
+public class APlusB10950 {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(System.out));
