@@ -60,3 +60,9 @@ step3/Star2439.java
  step3.Star2439
 step3/LessThenX10871.java
  step3.LessThenX10871
+step4/APlusB10952.java
+ step4.APlusB10952
+step4/APlusB10951.java
+ step4.APlusB10951
+step4/PlusCircle1110.java
+ step4.PlusCircle1110
