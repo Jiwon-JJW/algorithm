@@ -2,6 +2,8 @@ step3/APlusB10950.java
  step3.APlusB10950
 step2/CompareTwoNumbers1330.java
  step2.CompareTwoNumbers1330
+step3/LessThenX10871.java
+ step3.LessThenX10871
 step2/Quadrant14681.java
  step2.Quadrant14681
 step3/MultiplicationTable2739.java
@@ -26,12 +28,23 @@ step1/AMinusB1001.java
  step1.AMinusB1001
 step1/HelloWorld2557.java
  step1.HelloWorld2557
+step4/APlusB10951.java
+ step4.APlusB10951
 step2/TestScore9498.java
  step2.TestScore9498
+step1/ArithmeticOperation10869.java
+ step1.ArithmeticOperation
+ step1.ArithmeticOperation10869
 step1/Dog10172.java
  step1.Dog10172
 step3/Plus8393.java
  step3.Plus8393
+step4/PlusCircle1110.java
+ step4.PlusCircle1110
+step4/APlusB10952.java
+ step4.APlusB10952
+step5/MaxValue2562.java
+ step5.MaxValue2562
 step1/Remainder10430.java
  step1.Remainder
  step1.Remainder10430
@@ -39,6 +52,9 @@ step2/AlarmClock2884.java
  step2.AlarmClock2884
 step1/Cat10171.java
  step1.Cat10171
+step5/MinMax10818.java
+ step5.MM10818
+ step5.MinMax10818
 step1/ADivisionB1008.java
  step1.ADivisionB
  step1.ADivisionB1008
@@ -53,16 +69,7 @@ step1/Multiply2588.java
  step1.Multiply2588
 step2/LeapYear2753.java
  step2.LeapYear2753
-step1/ArithmeticOperation10869.java
- step1.ArithmeticOperation
- step1.ArithmeticOperation10869
 step3/Star2439.java
  step3.Star2439
-step3/LessThenX10871.java
- step3.LessThenX10871
-step4/APlusB10952.java
- step4.APlusB10952
-step4/APlusB10951.java
- step4.APlusB10951
-step4/PlusCircle1110.java
- step4.PlusCircle1110
+step5/CountedNumber2577.java
+ step5.CountedNumber2577
