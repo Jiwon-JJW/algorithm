@@ -2,10 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
-      <module name="baekjoon" target="14" />
       <module name="Programers.main" target="14" />
       <module name="Programers.test" target="14" />
-      <module name="programmers" target="14" />
       <module name="untitled.main" target="14" />
       <module name="untitled.test" target="14" />
     </bytecodeTargetLevel>
