@@ -1,4 +1,17 @@
-level1.java
- Solution
- Solution2
- level1
+level1/level12950.java
+ level1.level12950
+ level1.level12950$Solution
+level1/level12919.java
+ level1.level12919
+ level1.level12919$Solution
+level1/Level1Check2.java
+ level1.Level1Check2
+ level1.Level1Check2$Solution
+level1/Level1Check1.java
+ level1.Level1Check1
+ level1.Level1Check1$Solution
+level1/level81301.java
+ level1.level81301
+ level1.level81301$Solution2
+level1/level42748.java
+ level1.level42748
