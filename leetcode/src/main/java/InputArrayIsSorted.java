@@ -26,6 +26,26 @@ public class InputArrayIsSorted {
         return null;
     }
 
+    public static int[] twoSum2(int[] numbers, int target) {
+        Arrays.sort(numbers);
+
+        int low = 0;
+        int high = numbers.length - 1;
+        int sum = 0;
+
+        while (low <= high) {
+            sum = numbers[low] + numbers[high];
+            if( sum == target ) {
+                return new int[] {low + 1, high + 1};
+            } else if (sum > target) {
+                high --;
+            } else {
+                low ++;
+            }
+        }
+        return null;
+    }
+
     public static void main(String[] args) {
         System.out.println(Arrays.toString(twoSum(new int[]{2, 3, 4}, 6)));
     }
