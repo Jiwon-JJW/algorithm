@@ -35,4 +35,34 @@ public class BinarySearch {
 
         return -1;
     }
+
+
+    // 효율 0ms 51.8MB
+    public int search3(int[] nums, int target) {
+        if(nums.length == 1) {
+            if(nums[0] == target) return  0;
+            else return -1;
+        }
+
+        int low = 0;
+        int high = nums.length - 1 ;
+
+        return binarySearch(nums, low, high, target);
+    }
+
+    public int binarySearch(int[] nums, int low, int high, int target) {
+        if(low > high) {
+            return -1;
+        }
+
+        int mid = (low + high) / 2;
+
+        if(nums[mid] < target) {
+            return binarySearch(nums, mid + 1, high, target);
+        } else if (nums[mid] > target) {
+            return binarySearch(nums, low, mid - 1, target);
+        }
+
+        return mid;
+    }
 }
