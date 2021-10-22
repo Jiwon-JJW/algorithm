@@ -34,4 +34,26 @@ public class SquaresOfASortedArray {
         Collections.sort(answer);
         return answer.stream().mapToInt(Integer::intValue).toArray();
     }
+
+    public int[] sortedSquares3(int[] nums) {
+        int[] answer = new int[nums.length];
+
+        int low = 0;
+        int high = nums.length - 1;
+        int index = high;
+
+        while (low <= high) {
+            if(Math.abs(nums[low]) > Math.abs(nums[high])) {
+                answer[index] = nums[low] * nums[low];
+                low++;
+            } else {
+                answer[index] = nums[high] * nums[high];
+                high--;
+            }
+
+            index--;
+        }
+
+        return answer;
+    }
 }
