@@ -10,6 +10,18 @@ public class MiddleOfTheLinkedList {
 
         return current;
     }
+
+    public ListNode middleNode2(ListNode head) {
+        ListNode current = head;
+        ListNode pointer = head;
+
+        while (pointer != null && pointer.next != null) {
+            current = current.next;
+            pointer = pointer.next.next;
+        }
+
+        return current;
+    }
 }
 
 class ListNode {

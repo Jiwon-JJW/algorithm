@@ -12,6 +12,20 @@ public class ReverseString {
         }
     }
 
+    public void reverseString(char[] s) {
+        int low = 0;
+        int high = s.length - 1;
+
+        while (low < high) {
+            char temp = s[low];
+            s[low] = s[high];
+            s[high] = temp;
+
+            low++;
+            high--;
+        }
+    }
+
     public static void main(String[] args) {
         reverseString2(new char[]{'h','e','l','l','o'});
     }
